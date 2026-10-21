@@ -1,4 +1,8 @@
-<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Alder Grove School is a planned independent specialist secondary school in Bolton for autistic young people aged 11–16."><meta name="theme-color" content="#173f37"><title>Home | Alder Grove School</title><link rel="stylesheet" href="style.css"></head><body><a class="skip" href="#main">Skip to main content</a>
+<!doctype html><html lang="en-GB"><head><link rel="manifest" href="/alder-grove-school/manifest.webmanifest">
+<meta name="theme-color" content="#174D3A">
+<link rel="apple-touch-icon" href="/alder-grove-school/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Alder Grove"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Alder Grove School is a planned independent specialist secondary school in Bolton for autistic young people aged 11–16."><meta name="theme-color" content="#173f37"><title>Home | Alder Grove School</title><link rel="stylesheet" href="style.css"></head><body><a class="skip" href="#main">Skip to main content</a>
 <div class="notice">Website preview — please confirm all highlighted details and statutory information before launch.</div>
 <div class="topbar"><div class="wrap"><span>Opening September 2027, subject to Department for Education registration</span><span><a href="keeping-safe.html">Contact the Safeguarding Team</a> &nbsp;·&nbsp; <a href="careers.html">Staff Login</a></span></div></div>
 <header class="header"><div class="wrap nav">
@@ -29,4 +33,10 @@
 const b=document.getElementById('menu-btn'),n=document.getElementById('navlinks');
 if(b&&n){b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',String(o));});n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false')}));}
 document.getElementById('year').textContent=new Date().getFullYear();
+</script><script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("/alder-grove-school/service-worker.js");
+  });
+}
 </script></body></html>

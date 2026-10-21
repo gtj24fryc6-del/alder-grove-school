@@ -55,3 +55,7 @@ HOW TO PREVIEW ON AN IPAD
 
 The site is plain HTML/CSS/JavaScript, so no build tool or laptop is required for
 basic publishing. A laptop can make large file-management tasks easier but is not essential.
+
+
+LOGO UPDATE
+The Alder Grove School logo has been added to alder-grove-logo.jpg and incorporated into the header and footer across the HTML pages. Keep alder-grove-logo.jpg alongside the HTML files and style.css in the repository root when uploading.

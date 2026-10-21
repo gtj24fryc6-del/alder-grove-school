@@ -1,0 +1,26 @@
+{
+  "id": "/alder-grove-school/",
+  "name": "Alder Grove School",
+  "short_name": "Alder Grove",
+  "description": "Alder Grove School information for families.",
+  "start_url": "/alder-grove-school/",
+  "scope": "/alder-grove-school/",
+  "display": "standalone",
+  "background_color": "#F7F5EC",
+  "theme_color": "#174D3A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/alder-grove-school/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/alder-grove-school/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
